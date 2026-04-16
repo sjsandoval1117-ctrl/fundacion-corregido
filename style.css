@@ -1,0 +1,118 @@
+body{
+  font-family: Arial;
+  margin:0;
+  background:#fff0f5;
+}
+
+header{
+  background:#ffc0cb;
+  text-align:center;
+  padding:20px;
+}
+
+.logo img{
+  width:80px;
+}
+
+nav a{
+  margin:10px;
+  text-decoration:none;
+  color:black;
+  font-weight:bold;
+}
+
+.eslogan{
+  font-style:italic;
+}
+
+.grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+  gap:20px;
+  padding:20px;
+}
+
+.card{
+  background:white;
+  padding:15px;
+  border-radius:15px;
+  text-align:center;
+}
+
+.card img{
+  width:100%;
+  border-radius:10px;
+}
+
+.btn{
+  display:inline-block;
+  background:#ff69b4;
+  color:white;
+  padding:8px;
+  border-radius:10px;
+  text-decoration:none;
+  margin-top:10px;
+}
+
+.disponible{
+  color:green;
+}
+
+.adoptado{
+  color:red;
+}
+
+footer{
+  background:#ffc0cb;
+  text-align:center;
+  padding:10px;
+}
+
+input, select, textarea{
+  width:90%;
+  padding:8px;
+  margin:5px;
+  border-radius:10px;
+  border:1px solid #ccc;
+}
+
+input:invalid, textarea:invalid{
+  border:2px solid red;
+}
+
+input:valid{
+  border:2px solid green;
+}
+
+form{
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+}
+
+.collage{
+  display:grid;
+  grid-template-columns:repeat(3, 1fr);
+  gap:10px;
+  padding:20px;
+}
+
+.collage img{
+  width:100%;
+  height:150px;
+  object-fit:cover;
+  border-radius:15px;
+}
+
+.collage img{
+  width:100%;
+  height:150px;
+  object-fit:cover;
+  border-radius:15px;
+  transition: all 0.3s ease;
+}
+
+.collage img:hover{
+  transform: scale(1.1);
+  filter: brightness(1.1);
+}
