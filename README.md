@@ -31,13 +31,6 @@ El sitio es completamente responsivo y se adapta a diferentes dispositivos media
 
 ---
 
-## Instrucciones de uso
-1. Descargar o clonar el repositorio
-2. Abrir el archivo `index.html` en un navegador
-3. Navegar entre las secciones desde el menú
-
----
-
 ## Capturas de pantalla
 
 ### Página principal
