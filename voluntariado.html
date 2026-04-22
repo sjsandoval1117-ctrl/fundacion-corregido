@@ -1,33 +1,66 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
+<meta charset="UTF-8">
 <title>Voluntariado</title>
-<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="css/estilos.css">
 </head>
 
 <body>
 
-<h1>Voluntariado</h1>
+<nav class="menu">
+  <a href="voluntariado.html">Voluntariado</a>
 
-<form>
+</nav>
 
-<input type="text" placeholder="Nombre" required>
-<input type="text" placeholder="Apellido" required>
+<h1 class="titulo">UNETE COMO VOLUNTARIADO</h1>
+
+<div class="card">
+  <h3>BENEFICIOS</h3>
+  <p>Podrias ayudar a una patita rescatada a ser feliz y recibir mucho amor de tu parte.</p>
+</div>
+
+<div class="card">
+  <h3>RESPOSABILIDAD</h3>
+  <p>Ayudar con alimentacion,cuidando y dandoles amor a los animales.</p>
+</div>
+
+<div class="card">
+  <h3>COMPROMISO</h3>
+  <p>Compartir tiempo con ellos sacándolos a pasear, dandoles de comer y que ayuden a recibir los cariños que se merecen.</p>
+</div>
+
+<h2 class="titulo">Formulario de voluntariado</h2>
+
+<form class="formulario">
+
+<input type="Nombre completo" placeholder="Nombre" required>
+<input type="correo" placeholder="Correo" required>
+<input type="ciudad" placeholder="ciudad" required>
 
 <select required>
-<option value="">¿Cómo quieres ayudar?</option>
-<option>Cuidado de animales</option>
-<option>Limpieza</option>
-<option>Eventos</option>
+<option value="disponibilidad horaria">disponibilidad horaria</option>
+<option>fines de semana</option>
+<option>entre semana</option>
+<option>ambos</option>
 </select>
 
-<textarea placeholder="Mensaje"></textarea>
+<select required>
+  <option value="area interes">area interes</option>
+  <option>cuidado animales</option>
+  <option>logistica</option>
+  <option>campaña</option>
+  </select>
 
-<button class="btn">Enviar</button>
+<button>QUIERO SER VOLUNTARIO</button> 
 
-</form>
 
-<a href="index.html" class="btn">← Volver</a>
+  
+
+<footer class="footer">
+  <div>Patitas Felices</div>
+  <div>© 2026</div>
+</footer>
 
 </body>
 </html>
